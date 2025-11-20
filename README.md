@@ -1,5 +1,4 @@
-# COMP3111_Project_Team30
-Group project for COMP 3111
+# Examination System 
 
 This repository implements an examination system for students, teachers and admins. From this system students can take the exam and view the results, teachers can modify the questions, manage the exam courses and see the overall grades for each course and students, and Admin can manage the students, teachers, and courses. The system has the following functionalities. 
 
