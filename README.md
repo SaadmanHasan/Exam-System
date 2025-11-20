@@ -10,9 +10,11 @@ Manages the students access and screens related to them. Particularly,
 3. Shows the Grade Statistics
 
 <img width="836" height="719" alt="image" src="https://github.com/user-attachments/assets/f66a8f1d-7946-490b-849b-702e1fde2ee4" />
+
 Figure: Student gradesheet 
 
 <img width="591" height="420" alt="image" src="https://github.com/user-attachments/assets/a0f21999-67b8-4fca-a937-35b92a329767" />
+
 Figure: Sample exam 
 
 ## Teacher Portal 
@@ -22,9 +24,11 @@ Manages the teachers access and screens related to them. Particularly
 3. Implements the Exam Management System
 
 <img width="875" height="591" alt="image" src="https://github.com/user-attachments/assets/8635cb65-c7ab-4c2f-a553-367e0af11ec8" />
+
 Figure: Questionbank
 
 <img width="881" height="556" alt="image" src="https://github.com/user-attachments/assets/27e41c85-ca4e-4744-ba2c-8c659cbf4654" />
+
 Figure: Exam Management 
 
 ## Manager Portal 
@@ -37,9 +41,11 @@ Manages the teachers/Manager access and screens related to them. Particularly,
     iii.Implements the Course Management System
 
 <img width="673" height="504" alt="image" src="https://github.com/user-attachments/assets/27a184d3-09e8-418e-84bd-8ec16849e140" />
+
 Figure: Student Management 
 
 <img width="690" height="518" alt="image" src="https://github.com/user-attachments/assets/3bd8c901-6d42-4eca-8988-bb6e8de42c71" />
+
 Figure: Course Management 
 
 ## Codebase
