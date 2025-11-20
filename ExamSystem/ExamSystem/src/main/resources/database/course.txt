@@ -1,0 +1,3 @@
+courseID:COMP3112,courseName:Software Engineering Principles II,department:CSE,quizes:[1732034632359],id:1731836162330,
+courseID:COMP3111,courseName:Software Engineering Principles I,department:CSE,id:1731836165878,
+courseID:MATH3111,courseName:Linear Algebra,department:CSE,quizes:[],id:1732197993252,

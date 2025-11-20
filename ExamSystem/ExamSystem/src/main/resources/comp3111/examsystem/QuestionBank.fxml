@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="comp3111.examsystem.controller.QuestionBankController">
+   <center>
+      <AnchorPane prefHeight="559.0" prefWidth="851.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="574.0" layoutY="42.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+            <Button layoutX="643.0" layoutY="42.0" mnemonicParsing="false" onAction="#filter" text="Filter" />
+            <Label layoutX="14.0" layoutY="46.0" prefHeight="18.0" prefWidth="56.0" text="Question" />
+            <Label layoutX="235.0" layoutY="46.0" text="Type" />
+            <Label layoutX="387.0" layoutY="46.0" text="Score" />
+            <TextField fx:id="input_question" layoutX="70.0" layoutY="42.0" />
+            <ComboBox fx:id="input_type" layoutX="272.0" layoutY="42.0" prefHeight="26.0" prefWidth="107.0" />
+            <TextField fx:id="input_score" layoutX="422.0" layoutY="42.0" prefHeight="26.0" prefWidth="114.0" />
+            <AnchorPane layoutX="571.0" layoutY="80.0" prefHeight="466.0" prefWidth="227.0">
+               <children>
+                  <Label layoutX="256.0" layoutY="27.0" text="Question" />
+                  <Label layoutX="256.0" layoutY="82.0" text="Option A" />
+                  <Label layoutX="257.0" layoutY="140.0" text="Option B" />
+                  <Label layoutX="256.0" layoutY="202.0" text="Option C" />
+                  <Label layoutX="260.0" layoutY="260.0" text="Answer" />
+                  <TextField fx:id="option_a" layoutX="206.0" layoutY="100.0" />
+                  <TextField fx:id="option_b" layoutX="206.0" layoutY="158.0" />
+                  <TextField fx:id="option_c" layoutX="206.0" layoutY="220.0" />
+                  <TextField fx:id="answer" layoutX="206.0" layoutY="278.0" />
+                  <TextField fx:id="score" layoutX="206.0" layoutY="334.0" />
+                  <ComboBox fx:id="type" layoutX="205.0" layoutY="391.0" prefWidth="150.0" />
+                  <Label layoutX="265.0" layoutY="316.0" text="Score" />
+                  <Label layoutX="267.0" layoutY="373.0" prefHeight="14.0" prefWidth="28.0" text="Type" />
+                  <TextField fx:id="question" layoutX="206.0" layoutY="45.0" />
+               </children>
+            </AnchorPane>
+            <TableView fx:id="table" layoutX="14.0" layoutY="83.0" prefHeight="445.0" prefWidth="742.0" AnchorPane.rightAnchor="197.20000000000005">
+              <columns>
+                <TableColumn fx:id="show_ques" prefWidth="312.79996967315674" text="Quetion" />
+                  <TableColumn fx:id="show_opa" prefWidth="73.60003662109375" text="Option A" />
+                  <TableColumn fx:id="show_opb" text="Option B" />
+                  <TableColumn fx:id="show_opc" prefWidth="68.79998779296875" text="Option C" />
+                  <TableColumn fx:id="show_ans" prefWidth="68.79998779296875" text="Answer" />
+                  <TableColumn fx:id="show_score" prefWidth="64.79998779296875" text="Score" />
+                  <TableColumn fx:id="show_type" prefWidth="77.60003662109375" text="Type" />
+              </columns>
+            </TableView>
+            <Button layoutX="782.0" layoutY="560.0" mnemonicParsing="false" onAction="#add" text="Add" />
+            <Button layoutX="859.0" layoutY="560.0" mnemonicParsing="false" onAction="#update" text="Update" />
+            <Button layoutX="359.0" layoutY="560.0" mnemonicParsing="false" onAction="#refresh1" text="Refresh" />
+            <Button layoutX="434.0" layoutY="560.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
